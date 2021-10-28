@@ -7,5 +7,5 @@ def index(request):
     return HttpResponse('Hello World')
 
 def my_name(request):
-    context = {'name': 'Erbert Moralde'}
+    context = {'name': 'LJ John Villacarlos'}
     return render(request, 'myapp/myapp.html', context)
